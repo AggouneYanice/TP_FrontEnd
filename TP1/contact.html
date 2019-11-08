@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Club sportif magl - Contact</title>
+    <meta name="description" content="Cours LP, IUT2 Grenoble"/>
+    <meta name="author" content="Pierre Dupont">
+    <meta name="keywords" content="sport, club">
+  </head>
+  <body>
+    <h1>Contact</h1>
+
+    <form class="contact" action="index.html" method="get">
+      <fieldset>
+        <legend>Informations personnelles</legend>
+
+        <label for="nom_prenom">Nom et prénom</label>
+        <input type="text" name="nom_prenom" value="" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" value="">
+        <label for="num_tel">N° de téléphone</label>
+        <input type="tel" name="num_tel" pattern="0[0-9]{9}" placeholder="">
+      </fieldset>
+
+      <fieldset>
+        <legend>Votre message</legend>
+        <textarea name="message" rows="8" cols="80" required></textarea>
+      </fieldset>
+
+      <input type="submit" name="envoyer" value="Envoyer">
+    </form>
+  </body>
+</html>

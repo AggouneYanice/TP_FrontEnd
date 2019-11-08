@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,KAAK",
+"sources": ["fichier_initial.scss"],
+"names": [],
+"file": "fichier_genere.css"
+}

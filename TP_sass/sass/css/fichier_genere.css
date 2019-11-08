@@ -1,0 +1,274 @@
+@charset "UTF-8";
+.taille-1 {
+  width: 25%; }
+
+.taille-2 {
+  width: 50%; }
+
+.taille-3 {
+  width: 75%; }
+
+.taille-4 {
+  width: 100%; }
+
+.taille-1 {
+  width: 25%; }
+
+.taille-2 {
+  width: 50%; }
+
+.taille-3 {
+  width: 75%; }
+
+.taille-4 {
+  width: 100%; }
+
+.table-petite {
+  width: 25%; }
+
+.table-standard {
+  width: 50%; }
+
+.table-moyenne {
+  width: 75%; }
+
+.table-grande {
+  width: 100%; }
+
+.table-petite {
+  width: 25%; }
+
+.table-standard {
+  width: 50%; }
+
+.table-moyenne {
+  width: 75%; }
+
+.table-grande {
+  width: 100%; }
+
+.table-class-truc-petite {
+  width: 25%; }
+
+.table-class-truc-standard {
+  width: 50%; }
+
+.table-class-truc-moyenne {
+  width: 75%; }
+
+.table-class-truc-grande {
+  width: 100%; }
+
+.ville-espagne:before {
+  content: "Espagne";
+  display: block; }
+
+.ville-maroc:before {
+  content: "Maroc";
+  display: block; }
+
+.ville-bresil:before {
+  content: "Br├®sil";
+  display: block; }
+
+.ville-caraibes:before {
+  content: "Les ├«le Cara├»bes";
+  display: block; }
+
+.ville-espagne:after {
+  content: "Espagne";
+  display: block; }
+
+.ville-maroc:after {
+  content: "Maroc";
+  display: block; }
+
+.ville-bresil:after {
+  content: "Br├®sil";
+  display: block; }
+
+.ville-caraibes:after {
+  content: "Les ├«le Cara├»bes";
+  display: block; }
+
+.social-facebook {
+  background: #728dc8;
+  color: #1f2e4f; }
+
+.social-twitter {
+  background: #b2d9f7;
+  color: #147bc9; }
+
+.social-linkedin {
+  background: #1cb1ff;
+  color: #00344f; }
+
+.social-instagram {
+  background: #f199aa;
+  color: #a61833; }
+
+.social-pinterest {
+  background: #f6354a;
+  color: #5b040e; }
+
+.social-youtube {
+  background: #e86a6a;
+  color: #741212; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-facebook {
+  background: #728dc8;
+  color: #1f2e4f; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-twitter {
+  background: #b2d9f7;
+  color: #147bc9; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-linkedin {
+  background: #1cb1ff;
+  color: #00344f; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-instagram {
+  background: #f199aa;
+  color: #a61833; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-pinterest {
+  background: #f6354a;
+  color: #5b040e; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-youtube {
+  background: #e86a6a;
+  color: #741212; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-facebook {
+  background: #728dc8;
+  color: #1f2e4f; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-twitter {
+  background: #b2d9f7;
+  color: #147bc9; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-linkedin {
+  background: #1cb1ff;
+  color: #00344f; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-instagram {
+  background: #f199aa;
+  color: #a61833; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-pinterest {
+  background: #f6354a;
+  color: #5b040e; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-youtube {
+  background: #e86a6a;
+  color: #741212; }
+
+/*# sourceMappingURL=fichier_genere.css.map */

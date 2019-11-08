@@ -1,0 +1,140 @@
+// Question1
+$elements : 4;
+@for $i from 1 through $elements {
+  .taille-#{$i} {
+    width: (100% / $elements) * $i;
+  }
+}
+
+//Question 2
+@mixin table {
+  @for $i from 1 through $elements {
+    .taille-#{$i} {
+      width: (100% / $elements) * $i;
+    }
+  }
+}
+@include table;
+
+//Question 3
+$sizes : 'petite', 'standard', 'moyenne', 'grande';
+$i : 1;
+@each $size in $sizes  {
+  .table-#{$size} {
+    width : 25% *$i;
+  }
+  $i : $i +1;
+}
+
+//Question 4
+@mixin tableSize ($sizes){
+  $i : 1;
+  @each $size in $sizes  {
+    .table-#{$size} {
+      width : (100% / length($sizes))*$i;
+    }
+    $i : $i +1;
+  }
+}
+@include tableSize($sizes);
+
+//Question 5
+@mixin tableSizeClass ($sizes, $class){
+  $i : 1;
+  @each $size in $sizes  {
+    .#{$class}-#{$size} {
+      width : (100% / length($sizes))*$i;
+    }
+    $i : $i +1;
+  }
+}
+$class : table-class-truc;
+@include tableSizeClass($sizes, $class);
+
+//Question 6
+@function return1st($array) {
+  @return nth($array, 1);
+}
+
+//Question 7
+@function returnLast($array) {
+  @return nth($array, -1);
+}
+
+//Question 8
+$map : ('Espagne' : 'espagne', "Maroc" :'maroc', 'Brésil':'bresil', "Les île Caraïbes": 'caraibes');
+
+//Question 9
+@each $key, $value in $map{
+  .ville-#{$value}:before{
+    content: $key;
+    display: block;
+  }
+}
+
+//Question 10
+@mixin destination ($map, $action) {
+  @each $key, $value in $map{
+    .ville-#{$value}:#{$action} {
+      content: $key;
+      display: block;
+    }
+  }
+}
+$action : 'after';
+@include destination($map, $action);
+
+//Question 11
+$social : ('facebook' : #3b5999 , 'twitter' : #55acee, 'linkedin' : #0077B5, 'instagram' : #e4405f, 'pinterest' : #bd081c, 'youtube' : #cd201f );
+
+//Question 12
+@each $reseau, $bg in $social {
+  .social-#{$reseau} {
+    background: lighten($bg, 20%);
+    color: darken($bg, 20%);
+  }
+}
+
+//Question 13
+//Voir index.html
+
+//Question 14
+@mixin reseau ($social) {
+  @each $reseau, $bg in $social{
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-#{$reseau} {
+      background: lighten($bg, 20%);
+      color: darken($bg, 20%);
+    }
+  }
+}
+@include reseau($social);
+//Question 15
+$light : 20%;
+$dark : 20%;
+@mixin reseauLD ($social, $light, $dark) {
+  @each $reseau, $bg in $social{
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-#{$reseau} {
+      background: lighten($bg, $light);
+      color: darken($bg, $dark);
+    }
+  }
+}
+@include reseauLD($social, $light, $dark);
