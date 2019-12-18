@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Club sportif magl - Services</title>
+    <meta name="description" content="Cours LP, IUT2 Grenoble"/>
+    <meta name="author" content="Pierre Dupont">
+    <meta name="keywords" content="sport, club">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div id="menu6" class="menu">
+        <h1>Services</h1>
+        <a href="#" id="ouvrir_menu_lien"><div id="ouvrir_menu"></div></a>
+        <ul id="listeMenu">
+
+        </ul>
+      </div>
+    </div>
+    <div id="content_services">
+      <div id="informations" style="height:500px; margin-right: 5px">
+        <h3>Informations</h3>
+        <ul style="list-style-type: none; font-size: 22px">
+          <li><p style="color: #f03">Stade des Alpes : Stade principal du club, l'équipe première évolue dans ce stade</p></li>
+          <li><p style="color: #03ff06">Stade de la Poterne : Terrain d'entrainement du club, l'équipe réserve évolue dans ce stade</p></li>
+          <li><p style="color: #03ff06">Stade Bachelard : Grand stade public qui n'est pas utilisé par nos équipes</p></li>
+          <li><p style="color: #03ff06">Stade du Clos d'Or : Terrain en synthétique utilisé par l'éuipe féminine</p></li>
+        </ul>
+
+      </div>
+      <div id="map" style="height:500px; margin-right: 5px">
+        <h3>Localisation</h3>
+        <script>
+          var map = L.map('map').setView([45.18746862095541, 5.740104905043126], 12);
+
+          L.tileLayer('https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=5w4RXJBE3iRpPig4BlYJ', {
+            attribution:'<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
+          }).addTo(map);
+
+          var circle = L.circle([45.18746862095541, 5.740104905043126], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 350
+          }).addTo(map);
+
+          var circle2 = L.circle([45.173031376741, 5.747799638071678], {
+            color: 'green',
+            fillColor: '#03ff06',
+            fillOpacity: 0.5,
+            radius: 350
+          }).addTo(map);
+
+          var circle3 = L.circle([45.166176999573075, 5.709551616953505], {
+            color: 'green',
+            fillColor: '#03ff06',
+            fillOpacity: 0.5,
+            radius: 350
+          }).addTo(map);
+
+          var circle4 = L.circle([45.1711, 5.72459], {
+            color: 'green',
+            fillColor: '#03ff06',
+            fillOpacity: 0.5,
+            radius: 350
+          }).addTo(map);
+
+          circle.bindPopup("<b>Stade des Alpes</b><br><p>Capacité : 20 000 places assises</p><p>Utilisé pour les matchs officiels</p>");
+          circle2.bindPopup("<b>Stade de la Poterne</b><br><p>Capacité : 3 000 places assises</p><p>Utilisé pour les matchs de réserve et les entrainements</p>");
+          circle3.bindPopup("<b>Stade Bachelard</b><br><p>Capacité : inconnue</p><p>Terrain multi-sport, non-utilisé par le club</p>");
+          circle4.bindPopup("<b>Stade du Clos d'or</b><br><p>Capacité : inconnue</p><p>Terrain synthétique, utilisé par les féminines</p>");
+        </script>
+      </div>
+      <div id="assistance" style="height:500px">
+        <h3>Assistance</h3>
+      </div>
+    </div>
+
+  </body>
+</html>

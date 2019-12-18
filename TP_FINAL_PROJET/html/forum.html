@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Club sportif magl - Actualités</title>
+    <meta name="description" content="Cours LP, IUT2 Grenoble"/>
+    <meta name="author" content="Pierre Dupont">
+    <meta name="keywords" content="sport, club">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div id="menu6" class="menu">
+            <h1>Forum</h1>
+            <a href="#" id="ouvrir_menu_lien"><div id="ouvrir_menu"></div></a>
+            <ul id="listeMenu">
+
+            </ul>
+        </div>
+    </div>
+    <div id="entete">
+        <h2>Mes messages</h2>
+        <input type="button" name="viderMessage" id="viderMessage" value="Vider">
+    </div>
+    <div id="messages">
+        <table id="tableau_messages">
+            <thead>
+                <th>Utilisateur</th>
+                <th id="th_message">Message</th>
+                <th>Date d'envoi</th>
+            </thead>
+            <tbody id="body_tabMessages">
+
+            </tbody>
+        </table>
+    </div>
+<div id="poster_message">
+<div id="creer_message">
+    <form method="post" action="forum.html" id="form_message">
+        <fieldset>
+            <legend><u>Ajouter un message</u></legend>
+            <label for="user_name">Nom d'utilisateur :</label><br>
+            <input type="text" id="user_name" name="user_name" required placeholder="Votre nom" oninvalid="setCustomValidity('Votre nom d\'utilisateur ne peut être vide')"><br>
+            <label for="message_txt" id="label_msgtxt">Votre message :</label><br>
+            <textarea placeholder="Votre message" required id="message_txt" rows="4" cols="80"></textarea>
+            <input type="submit" name="valider_msg" id="valider_msg" value="Envoyer">
+        </fieldset>
+    </form>
+</div>
+</div>
+</body>
+</html>
