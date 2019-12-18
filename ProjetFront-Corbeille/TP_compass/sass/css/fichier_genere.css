@@ -1,0 +1,388 @@
+@charset "UTF-8";
+/* line 4, ../scss/fichier_genere.scss */
+.taille-1 {
+  width: 25%;
+}
+
+/* line 4, ../scss/fichier_genere.scss */
+.taille-2 {
+  width: 50%;
+}
+
+/* line 4, ../scss/fichier_genere.scss */
+.taille-3 {
+  width: 75%;
+}
+
+/* line 4, ../scss/fichier_genere.scss */
+.taille-4 {
+  width: 100%;
+}
+
+/* line 12, ../scss/fichier_genere.scss */
+.taille-1 {
+  width: 25%;
+}
+
+/* line 12, ../scss/fichier_genere.scss */
+.taille-2 {
+  width: 50%;
+}
+
+/* line 12, ../scss/fichier_genere.scss */
+.taille-3 {
+  width: 75%;
+}
+
+/* line 12, ../scss/fichier_genere.scss */
+.taille-4 {
+  width: 100%;
+}
+
+/* line 23, ../scss/fichier_genere.scss */
+.table-petite {
+  width: 25%;
+}
+
+/* line 23, ../scss/fichier_genere.scss */
+.table-standard {
+  width: 50%;
+}
+
+/* line 23, ../scss/fichier_genere.scss */
+.table-moyenne {
+  width: 75%;
+}
+
+/* line 23, ../scss/fichier_genere.scss */
+.table-grande {
+  width: 100%;
+}
+
+/* line 33, ../scss/fichier_genere.scss */
+.table-petite {
+  width: 25%;
+}
+
+/* line 33, ../scss/fichier_genere.scss */
+.table-standard {
+  width: 50%;
+}
+
+/* line 33, ../scss/fichier_genere.scss */
+.table-moyenne {
+  width: 75%;
+}
+
+/* line 33, ../scss/fichier_genere.scss */
+.table-grande {
+  width: 100%;
+}
+
+/* line 45, ../scss/fichier_genere.scss */
+.table-class-truc-petite {
+  width: 25%;
+}
+
+/* line 45, ../scss/fichier_genere.scss */
+.table-class-truc-standard {
+  width: 50%;
+}
+
+/* line 45, ../scss/fichier_genere.scss */
+.table-class-truc-moyenne {
+  width: 75%;
+}
+
+/* line 45, ../scss/fichier_genere.scss */
+.table-class-truc-grande {
+  width: 100%;
+}
+
+/* line 69, ../scss/fichier_genere.scss */
+.ville-espagne:before {
+  content: "Espagne";
+  display: block;
+}
+
+/* line 69, ../scss/fichier_genere.scss */
+.ville-maroc:before {
+  content: "Maroc";
+  display: block;
+}
+
+/* line 69, ../scss/fichier_genere.scss */
+.ville-bresil:before {
+  content: "Br├®sil";
+  display: block;
+}
+
+/* line 69, ../scss/fichier_genere.scss */
+.ville-caraibes:before {
+  content: "Les ├«le Cara├»bes";
+  display: block;
+}
+
+/* line 78, ../scss/fichier_genere.scss */
+.ville-espagne:after {
+  content: "Espagne";
+  display: block;
+}
+
+/* line 78, ../scss/fichier_genere.scss */
+.ville-maroc:after {
+  content: "Maroc";
+  display: block;
+}
+
+/* line 78, ../scss/fichier_genere.scss */
+.ville-bresil:after {
+  content: "Br├®sil";
+  display: block;
+}
+
+/* line 78, ../scss/fichier_genere.scss */
+.ville-caraibes:after {
+  content: "Les ├«le Cara├»bes";
+  display: block;
+}
+
+/* line 92, ../scss/fichier_genere.scss */
+.social-facebook {
+  background: #728dc8;
+  color: #1f2e4f;
+}
+
+/* line 92, ../scss/fichier_genere.scss */
+.social-twitter {
+  background: #b2d9f7;
+  color: #147bc9;
+}
+
+/* line 92, ../scss/fichier_genere.scss */
+.social-linkedin {
+  background: #1cb1ff;
+  color: #00344f;
+}
+
+/* line 92, ../scss/fichier_genere.scss */
+.social-instagram {
+  background: #f199aa;
+  color: #a61833;
+}
+
+/* line 92, ../scss/fichier_genere.scss */
+.social-pinterest {
+  background: #f6354a;
+  color: #5b040e;
+}
+
+/* line 92, ../scss/fichier_genere.scss */
+.social-youtube {
+  background: #e86a6a;
+  color: #741212;
+}
+
+/* line 104, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 113, ../scss/fichier_genere.scss */
+.fa-facebook {
+  background: #728dc8;
+  color: #1f2e4f;
+}
+
+/* line 104, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 113, ../scss/fichier_genere.scss */
+.fa-twitter {
+  background: #b2d9f7;
+  color: #147bc9;
+}
+
+/* line 104, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 113, ../scss/fichier_genere.scss */
+.fa-linkedin {
+  background: #1cb1ff;
+  color: #00344f;
+}
+
+/* line 104, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 113, ../scss/fichier_genere.scss */
+.fa-instagram {
+  background: #f199aa;
+  color: #a61833;
+}
+
+/* line 104, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 113, ../scss/fichier_genere.scss */
+.fa-pinterest {
+  background: #f6354a;
+  color: #5b040e;
+}
+
+/* line 104, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 113, ../scss/fichier_genere.scss */
+.fa-youtube {
+  background: #e86a6a;
+  color: #741212;
+}
+
+/* line 125, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 134, ../scss/fichier_genere.scss */
+.fa-facebook {
+  background: #728dc8;
+  color: #1f2e4f;
+}
+
+/* line 125, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 134, ../scss/fichier_genere.scss */
+.fa-twitter {
+  background: #b2d9f7;
+  color: #147bc9;
+}
+
+/* line 125, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 134, ../scss/fichier_genere.scss */
+.fa-linkedin {
+  background: #1cb1ff;
+  color: #00344f;
+}
+
+/* line 125, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 134, ../scss/fichier_genere.scss */
+.fa-instagram {
+  background: #f199aa;
+  color: #a61833;
+}
+
+/* line 125, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 134, ../scss/fichier_genere.scss */
+.fa-pinterest {
+  background: #f6354a;
+  color: #5b040e;
+}
+
+/* line 125, ../scss/fichier_genere.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* line 134, ../scss/fichier_genere.scss */
+.fa-youtube {
+  background: #e86a6a;
+  color: #741212;
+}

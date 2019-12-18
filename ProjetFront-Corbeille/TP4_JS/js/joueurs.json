@@ -1,0 +1,25 @@
+{
+  "joueur1" : {
+    "image" : '/sites/mi2_progFO/aggoune_yanice/TP3_projet/medias/images/brice_maubleu.jpg',
+    "nom" : "Brice Maubleu",
+    "poste" : "Gardien",
+    "description" : "29 ans - 192cm - 83kg - Français - 7 matchs"
+  },
+  "joueur2" : {
+    "image" : '/sites/mi2_progFO/aggoune_yanice/TP3_projet/medias/images/papa_demba_camara.jpg',
+    "nom" : "Papa Demba Camara",
+    "poste" : "Gardien",
+    "description" : "26 ans - 195cm - 70kg - Senegalais - 1 match"
+  },
+  "joueur3" : {
+    "image" : '/sites/mi2_progFO/aggoune_yanice/TP3_projet/medias/images/esteban_salles.jpg',
+    "nom" : "Esteban Salles",
+    "poste" : "Gardien",
+    "description" : "25 ans - 187cm - 78kg - Français - 0 match"
+  },
+  "joueur4" : {
+    "image" : '/sites/mi2_progFO/aggoune_yanice/TP3_projet/medias/images/eric_vandenabeele.jpg',
+    "nom" : "Eric Vandenabeele",
+    "poste" : "Defenseur",
+    "description" : "27 ans - 184cm - 77kg - Français - 8 matchs"
+  }

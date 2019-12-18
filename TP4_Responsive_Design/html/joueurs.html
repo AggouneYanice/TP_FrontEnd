@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Club sportif magl - Joueurs</title>
+  <meta name="description" content="Cours LP, IUT2 Grenoble"/>
+  <meta name="author" content="Pierre Dupont">
+  <meta name="keywords" content="sport, club">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/menu.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/script.js"></script>
+</head>
+<body>
+<div class="content">
+<div id="menu7" class="menu">
+  <h1>Joueurs</h1>
+    <a href="#" id="ouvrir_menu_lien"><div id="ouvrir_menu"></div></a>
+    <ul id="listeMenu" class="unvisible">
+
+  </ul>
+</div>
+</div>
+<div id="container">
+
+</div>
+<p>
+  <button class="apparaitreForm" id="apparaitreForm" value="Apparaitre">Ajouter un joueur</button>
+</p>
+<div class="content_form" id="content_form">
+  <div class="form_add_container">
+    <form method="get" action="#" id="form_ajout_joueur">
+      <fieldset style="border:none;height:500px">
+        <p class="element_form">
+          <label for="nom_joueur">Nom : </label>
+          <input type="text" name="nom_joueur" id="nom_joueur" placeholder="Nom" required>
+        </p>
+        <p class="element_form">
+          <label for="poste_joueur">Poste</label>
+          <select id="poste_joueur" name="poste_joueur" required>
+            <option selected></option>
+            <option>Gardien</option>
+            <option>Defenseur</option>
+            <option>Milieu</option>
+            <option>Attaquant</option>
+          </select>
+        </p>
+
+        <p class="element_form">
+          <label for="description_joueur">Description : </label>
+          <input type="text" name="description_joueur" id="description_joueur" placeholder="Description" required>
+        </p>
+        <p class="action">
+          <input type="submit" name="ajout_joueur" id="ajout_joueur" value="Ajouter">
+          <input type="button" name="ajout_joueur" id="modif_joueur" value="Modifier">
+        </p>
+      </fieldset>
+
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

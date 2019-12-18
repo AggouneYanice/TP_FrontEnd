@@ -1,0 +1,387 @@
+@font-face {
+    font-family: "PetitLatin";
+    src: url('../fonts/PetitLatin.ttf');
+    }
+@media screen and (min-width: 1040px) {
+    .bloc {
+        display: block;
+        clear: both;
+    }
+
+    body {
+        font-family: PetitLatin;
+    }
+
+    h1 {
+        text-align: center;
+        color: royalblue;
+        text-shadow: 1px 1px 1px #004899;
+        font-size: 3.5em;
+    }
+
+    /*.retour_menu:before {
+      content: url(../medias/images/left-arrow.png);
+    }
+    */
+    h2 {
+        text-align: center;
+        color: royalblue;
+        text-shadow: 1px 1px 1px #004899;
+        font-size: 1.5em;
+        font-family: 'helvetica neue', helvetica, arial, sans-serif !important;
+    }
+
+    .menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        display: flex;
+    }
+
+    .menu li {
+        margin: auto;
+        padding: 15px 0 15px 0;
+        background-color: black;
+        flex-grow: 1;
+        border: 1px solid royalblue;
+    }
+
+    .menu li a {
+        display: block;
+        width: 200px;
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 1.5em;
+        font-family: 'Rock Salt';
+        text-align: center;
+    }
+
+    .menu li a {
+        color: #fdfdfd;
+    }
+
+    .menu li {
+        background-color: #004899;
+        margin-top: 20px;
+        transition: background-color 450ms;
+    }
+
+    .menu li:hover {
+        background-color: royalblue;
+    }
+
+    .menu .active {
+        background-color: #55acee;
+    }
+
+    h1 {
+        background-image: url(../medias/images/bg_menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1em;
+    }
+
+    .menu {
+        justify-content: center;
+        top: 0;
+        background-color: white;
+
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+        line-height: 1em;
+        margin: 0;
+        position: fixed;
+    }
+
+
+    .menu ul li ul {
+        display: none;
+    }
+
+    .menu li ul {
+        position: absolute;
+    }
+
+    .menu li ul li {
+        margin-top: 0 !important;
+        width: 100%;
+    }
+
+
+    .menu ul li:hover ul {
+        display: block;
+    }
+
+    .menu li:hover ul li {
+        float: none;
+    }
+
+    .content {
+        background-image: url('../medias/images/bg_img.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    h3 {
+        text-align: center;
+        color: royalblue;
+        text-shadow: 1px 1px 1px #004899;
+        font-size: 1.5em;
+    }
+
+    .interviews_audio {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .interviews_audio li {
+        border: 4px solid royalblue;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        width: 40%;
+        padding: 5px;
+    }
+
+    .interviews_audio audio {
+        display: block;
+        margin: auto;
+    }
+
+    #viderMessage {
+        width: 100px;
+        margin-left: 110px;
+        border: 1px solid royalblue;
+        background-color: #003e84;
+        color: white;
+        font-size: 15px;
+        border-radius: 10rem;
+        padding: 5px 0 5px 0;
+        transition: background-color 350ms ease-in-out;
+    }
+
+    #viderMessage:hover {
+        background-color: #051052;
+    }
+
+    #modif_joueur {
+        width: 100px;
+        border: 1px solid royalblue;
+        background-color: #003e84;
+        color: white;
+        font-size: 15px;
+        border-radius: 10rem;
+        padding: 5px 0 5px 0;
+        transition: background-color 350ms ease-in-out;
+    }
+
+    #modif_joueur:hover {
+        background-color: #051052;
+    }
+
+    .interviews_video {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .interviews_video li {
+        border: 4px solid royalblue;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        width: 40%;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .interviews_video video {
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: 300px;
+    }
+
+    .contact {
+        width: 35%;
+        text-align: right;
+    }
+
+    input[value="Envoyer"] {
+        display: block;
+        margin: auto;
+    }
+
+    .form_contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    #info_form {
+        font-size: 22px;
+        width: 70%;
+        color: royalblue;
+        margin: auto;
+    }
+
+    .active {
+        background-color: royalblue !important;
+    }
+
+    .capitaine {
+        color: yellow;
+        background-color: black;
+    }
+
+
+    div[id^='containBt_'] {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div[id^="contain_"] {
+        width: 33%;
+        border: 2px solid #003e84;
+        border-radius: 1rem;
+        margin: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    div[id^="contain_"] p {
+        margin: auto;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bouton_transition {
+        width: 100%;
+        border: 1px solid royalblue;
+        background-color: #003e84;
+        color: white;
+        font-size: 15px;
+        border-radius: 10rem;
+        padding: 10px 10px 10px 10px;
+        transition: background-color 350ms ease-in-out;
+    }
+
+    .bouton_transition:hover {
+        background-color: #051052;
+    }
+
+    input[type='submit'] {
+        border: 1px solid royalblue;
+        background-color: #003e84;
+        color: white;
+        font-size: 15px;
+        border-radius: 10rem;
+        padding: 5px 20px 5px 20px;
+        transition: background-color 350ms ease-in-out;
+    }
+
+    input[type='submit']:hover {
+        background-color: #051052;
+    }
+
+    .apparaitreForm {
+        border: 1px solid royalblue;
+        background-color: #003e84;
+        color: white;
+        font-size: 15px;
+        border-radius: 10rem;
+        padding: 10px 15px 10px 15px;
+        transition: background-color 350ms ease-in-out;
+    }
+
+    .apparaitreForm:hover {
+        background-color: #051052;
+    }
+
+    .form_add_container {
+        background-color: #004899;
+        height: 200px;
+        border-radius: 5rem;
+        padding: 25px 15px 25px 15px;
+    }
+
+    .content_form {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10rem;
+    }
+
+    .form_ajout_joueur {
+        flex-direction: column;
+    }
+
+    .element_form input {
+        border-radius: 10rem;
+        padding: 5px 10px 5px;
+        width: 300px;
+    }
+
+
+    .element_form select {
+        border-radius: 10rem;
+        padding: 5px 10px 5px;
+        width: 300px;
+    }
+
+    #menu_mobile {
+        visibility: hidden;
+    }
+
+
+
+    .element_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+
+    }
+
+    .action {
+        margin-left: 150px;
+    }
+
+    .ouvreur {
+        visibility: hidden;
+    }
+
+
+    html {
+        font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    }
+
+
+    #container div[id^='contain_'] {
+        background-color: #003e84;
+        border-radius: 1rem;
+        color: white;
+        font-size: 15px;
+        transition: background-color 350ms ease-in-out;
+    }
+
+    #container div[id^='contain_']:hover {
+        background-color: #003469;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+
+}

@@ -1,0 +1,171 @@
+#messages {
+    display: flex;
+    justify-content: center;
+
+}
+table {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid #004899;
+}
+
+
+thead th:nth-child(1) {
+    width: 15%;
+}
+
+thead th:nth-child(2) {
+    width: 70%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+
+th, td {
+    padding: 20px;
+}
+
+
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+th {
+    letter-spacing: 2px;
+    background-color: #004899 !important;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+thead, tfoot {
+    color: white;
+    text-shadow: 1px 1px 1px #004899;
+}
+
+thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid #004899;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #004899;
+    transition: background-color 250ms ease-in-out;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fdfdfd;
+    transition: background-color 250ms ease-in-out;
+}
+
+
+#tableau_messages tr:nth-child(odd) {
+    color: #fdfdfd;
+}
+
+#tableau_messages tr:nth-child(even) {
+    color: #004899;
+}
+
+
+#tableau_messages tr:nth-child(odd) {
+    background-color: #004899;
+    transition: background-color 250ms ease-in-out;
+}
+
+#tableau_messages tr:nth-child(even) {
+    background-color: #fdfdfd;
+    transition: background-color 250ms ease-in-out;
+}
+
+
+#tableau_messages tr:nth-child(odd):hover {
+    background-color: royalblue;
+}
+
+#tableau_messages tr:nth-child(even):hover {
+    background-color: gainsboro;
+}
+
+table {
+    background-color: #fdfdfd;
+}
+
+#creer_message {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #004899;
+    width: 60%;
+    border-radius: 15px;
+}
+
+textarea{
+    min-height: 150px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 25px;
+    color: antiquewhite;
+    margin-bottom: 15px;
+}
+
+input {
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 30px;
+    margin-top: 5px;
+}
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#poster_message {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+}
+
+#label_msgtxt {
+    margin-top: -100px;
+}
+
+#entete {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+
